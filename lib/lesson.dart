@@ -328,6 +328,9 @@ class Computer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      floatingActionButton: FloatingActionButton(onPressed: () {
+        
+      },),
       appBar: AppBar(
         backgroundColor: Colors.white,
         title: Column(
